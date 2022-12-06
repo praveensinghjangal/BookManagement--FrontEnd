@@ -24,7 +24,7 @@ const CreateBook = () => {
         setBook({
             ...book,
             [name]: value,
-            userId: userId
+            userId: userId 
         })
     }
 
@@ -88,7 +88,7 @@ const CreateBook = () => {
                             placeholder='YYYY-MM-DD'
                             onChange={(e) => newBook(e)} />
                     </div>
-                    <button onClick={() => { addBook() }}>Ad to Book List</button>
+                    <button onClick={() => { addBook() }}>Add to Book List</button>
                 </div>
                 )}
         </div>
